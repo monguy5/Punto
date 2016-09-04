@@ -1,0 +1,18 @@
+c:\users\jesusgiovanni\documents\visual studio 2015\Projects\Punto\Punto\bin\Debug\Punto.exe.config
+c:\users\jesusgiovanni\documents\visual studio 2015\Projects\Punto\Punto\bin\Debug\Punto.exe
+c:\users\jesusgiovanni\documents\visual studio 2015\Projects\Punto\Punto\bin\Debug\Punto.pdb
+c:\users\jesusgiovanni\documents\visual studio 2015\Projects\Punto\Punto\bin\Debug\MySql.Data.dll
+c:\users\jesusgiovanni\documents\visual studio 2015\Projects\Punto\Punto\obj\Debug\Punto.csprojResolveAssemblyReference.cache
+c:\users\jesusgiovanni\documents\visual studio 2015\Projects\Punto\Punto\obj\Debug\Punto.Form1.resources
+c:\users\jesusgiovanni\documents\visual studio 2015\Projects\Punto\Punto\obj\Debug\Punto.Properties.Resources.resources
+c:\users\jesusgiovanni\documents\visual studio 2015\Projects\Punto\Punto\obj\Debug\Punto.csproj.GenerateResource.Cache
+c:\users\jesusgiovanni\documents\visual studio 2015\Projects\Punto\Punto\obj\Debug\Punto.exe
+c:\users\jesusgiovanni\documents\visual studio 2015\Projects\Punto\Punto\obj\Debug\Punto.pdb
+c:\users\jesusgiovanni\documents\visual studio 2015\Projects\Punto\Punto\obj\Debug\Punto.VerInventariosView.resources
+C:\Users\JesusGiovanni\documents\visual studio 2015\Projects\Punto\Punto\obj\Debug\Punto.CobrarView.resources
+C:\Users\JesusGiovanni\documents\visual studio 2015\Projects\Punto\Punto\obj\Debug\Punto.MenuView.resources
+C:\Users\JesusGiovanni\documents\visual studio 2015\Projects\Punto\Punto\obj\Debug\Punto.Clientes.resources
+C:\Users\JesusGiovanni\documents\visual studio 2015\Projects\Punto\Punto\obj\Debug\Punto.Facturar.resources
+C:\Punto\Punto\bin\Debug\Punto.exe.config
+C:\Punto\Punto\obj\Debug\Punto.exe
+C:\Punto\Punto\obj\Debug\Punto.pdb
