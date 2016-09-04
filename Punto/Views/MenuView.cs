@@ -44,5 +44,34 @@ namespace Punto
             Facturar f = new Facturar();
             f.Show();
         }
+
+        private void verInventarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            VerInventariosView f = new VerInventariosView();
+            f.Show();
+        }
+
+        private void agregarInventarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AgregarInventarioView a = new AgregarInventarioView();
+            a.Show();
+            
+        }
+
+        private void agregarProveedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AgregarProveedoresView a = new AgregarProveedoresView();
+            a.Show();
+        }
+
+        private void corteDeCajaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cierreDeDíaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

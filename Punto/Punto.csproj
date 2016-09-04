@@ -50,67 +50,88 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AgregarInventarioView.cs">
+    <Compile Include="Views\AgregarFacturaCompraView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AgregarInventarioView.Designer.cs">
+    <Compile Include="Views\AgregarFacturaCompraView.Designer.cs">
+      <DependentUpon>AgregarFacturaCompraView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AgregarInventarioView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AgregarInventarioView.Designer.cs">
       <DependentUpon>AgregarInventarioView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Clientes.cs">
+    <Compile Include="Views\AgregarProveedoresView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Clientes.Designer.cs">
+    <Compile Include="Views\AgregarProveedoresView.Designer.cs">
+      <DependentUpon>AgregarProveedoresView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Clientes.Designer.cs">
       <DependentUpon>Clientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="CobrarView.cs">
+    <Compile Include="Views\CobrarView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CobrarView.Designer.cs">
+    <Compile Include="Views\CobrarView.Designer.cs">
       <DependentUpon>CobrarView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Facturar.cs">
+    <Compile Include="Views\Facturar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Facturar.Designer.cs">
+    <Compile Include="Views\Facturar.Designer.cs">
       <DependentUpon>Facturar.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuView.cs">
+    <Compile Include="Views\MenuView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MenuView.Designer.cs">
+    <Compile Include="Views\MenuView.Designer.cs">
       <DependentUpon>MenuView.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\ClientesModel.cs" />
     <Compile Include="Models\Conexion.cs" />
+    <Compile Include="Models\FacturaCompraModel.cs" />
     <Compile Include="Models\LoginModel.cs" />
     <Compile Include="Models\InventarioModel.cs" />
+    <Compile Include="Models\ProvedoresModel.cs" />
     <Compile Include="Models\VentasModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VerInventariosView.cs">
+    <Compile Include="Views\VerInventariosView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="VerInventariosView.Designer.cs">
+    <Compile Include="Views\VerInventariosView.Designer.cs">
       <DependentUpon>VerInventariosView.cs</DependentUpon>
     </Compile>
     <Compile Include="ViewModels\AgregarClientesVM.cs" />
     <Compile Include="ViewModels\AgregarInventarioVM.cs" />
+    <Compile Include="ViewModels\AgregarProveedorVM.cs" />
     <Compile Include="ViewModels\Busquedas.cs" />
     <Compile Include="ViewModels\CobrarVM.cs" />
     <Compile Include="ViewModels\VerInventarioVM.cs" />
-    <EmbeddedResource Include="AgregarInventarioView.resx">
+    <EmbeddedResource Include="Views\AgregarFacturaCompraView.resx">
+      <DependentUpon>AgregarFacturaCompraView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AgregarInventarioView.resx">
       <DependentUpon>AgregarInventarioView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Clientes.resx">
+    <EmbeddedResource Include="Views\AgregarProveedoresView.resx">
+      <DependentUpon>AgregarProveedoresView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Clientes.resx">
       <DependentUpon>Clientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CobrarView.resx">
+    <EmbeddedResource Include="Views\CobrarView.resx">
       <DependentUpon>CobrarView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Facturar.resx">
+    <EmbeddedResource Include="Views\Facturar.resx">
       <DependentUpon>Facturar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuView.resx">
+    <EmbeddedResource Include="Views\MenuView.resx">
       <DependentUpon>MenuView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -122,7 +143,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="VerInventariosView.resx">
+    <EmbeddedResource Include="Views\VerInventariosView.resx">
       <DependentUpon>VerInventariosView.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">

@@ -44,6 +44,8 @@
             this.corteDeCajaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripDropDownButton5 = new System.Windows.Forms.ToolStripDropDownButton();
             this.agregarClientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.agregarProveedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cierreDeDíaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -89,27 +91,27 @@
             this.toolStripDropDownButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton2.Image")));
             this.toolStripDropDownButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton2.Name = "toolStripDropDownButton2";
-            this.toolStripDropDownButton2.Size = new System.Drawing.Size(55, 22);
+            this.toolStripDropDownButton2.Size = new System.Drawing.Size(54, 22);
             this.toolStripDropDownButton2.Text = "Ventas";
             this.toolStripDropDownButton2.ToolTipText = "Ventas";
             // 
             // cobrarToolStripMenuItem
             // 
             this.cobrarToolStripMenuItem.Name = "cobrarToolStripMenuItem";
-            this.cobrarToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.cobrarToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.cobrarToolStripMenuItem.Text = "Cobrar";
             this.cobrarToolStripMenuItem.Click += new System.EventHandler(this.cobrarToolStripMenuItem_Click);
             // 
             // ventasHistoricoToolStripMenuItem
             // 
             this.ventasHistoricoToolStripMenuItem.Name = "ventasHistoricoToolStripMenuItem";
-            this.ventasHistoricoToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.ventasHistoricoToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.ventasHistoricoToolStripMenuItem.Text = "Ventas Historico";
             // 
             // facturacionToolStripMenuItem
             // 
             this.facturacionToolStripMenuItem.Name = "facturacionToolStripMenuItem";
-            this.facturacionToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.facturacionToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.facturacionToolStripMenuItem.Text = "Facturacion";
             this.facturacionToolStripMenuItem.Click += new System.EventHandler(this.facturacionToolStripMenuItem_Click);
             // 
@@ -119,7 +121,8 @@
             this.toolStripDropDownButton3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.verInventarioToolStripMenuItem,
             this.agregarInventarioToolStripMenuItem,
-            this.ajustarInventarioToolStripMenuItem});
+            this.ajustarInventarioToolStripMenuItem,
+            this.agregarProveedoresToolStripMenuItem});
             this.toolStripDropDownButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton3.Image")));
             this.toolStripDropDownButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton3.Name = "toolStripDropDownButton3";
@@ -132,12 +135,14 @@
             this.verInventarioToolStripMenuItem.Name = "verInventarioToolStripMenuItem";
             this.verInventarioToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.verInventarioToolStripMenuItem.Text = "Ver Inventario";
+            this.verInventarioToolStripMenuItem.Click += new System.EventHandler(this.verInventarioToolStripMenuItem_Click);
             // 
             // agregarInventarioToolStripMenuItem
             // 
             this.agregarInventarioToolStripMenuItem.Name = "agregarInventarioToolStripMenuItem";
             this.agregarInventarioToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.agregarInventarioToolStripMenuItem.Text = "Agregar Inventario";
+            this.agregarInventarioToolStripMenuItem.Click += new System.EventHandler(this.agregarInventarioToolStripMenuItem_Click);
             // 
             // ajustarInventarioToolStripMenuItem
             // 
@@ -149,7 +154,8 @@
             // 
             this.toolStripDropDownButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripDropDownButton4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.corteDeCajaToolStripMenuItem});
+            this.corteDeCajaToolStripMenuItem,
+            this.cierreDeDíaToolStripMenuItem});
             this.toolStripDropDownButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton4.Image")));
             this.toolStripDropDownButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton4.Name = "toolStripDropDownButton4";
@@ -160,8 +166,9 @@
             // corteDeCajaToolStripMenuItem
             // 
             this.corteDeCajaToolStripMenuItem.Name = "corteDeCajaToolStripMenuItem";
-            this.corteDeCajaToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
-            this.corteDeCajaToolStripMenuItem.Text = "Corte de Caja";
+            this.corteDeCajaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.corteDeCajaToolStripMenuItem.Text = "Retiros";
+            this.corteDeCajaToolStripMenuItem.Click += new System.EventHandler(this.corteDeCajaToolStripMenuItem_Click);
             // 
             // toolStripDropDownButton5
             // 
@@ -180,6 +187,20 @@
             this.agregarClientesToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.agregarClientesToolStripMenuItem.Text = "Agregar Clientes";
             this.agregarClientesToolStripMenuItem.Click += new System.EventHandler(this.agregarClientesToolStripMenuItem_Click);
+            // 
+            // agregarProveedoresToolStripMenuItem
+            // 
+            this.agregarProveedoresToolStripMenuItem.Name = "agregarProveedoresToolStripMenuItem";
+            this.agregarProveedoresToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.agregarProveedoresToolStripMenuItem.Text = "Agregar Proveedores";
+            this.agregarProveedoresToolStripMenuItem.Click += new System.EventHandler(this.agregarProveedoresToolStripMenuItem_Click);
+            // 
+            // cierreDeDíaToolStripMenuItem
+            // 
+            this.cierreDeDíaToolStripMenuItem.Name = "cierreDeDíaToolStripMenuItem";
+            this.cierreDeDíaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cierreDeDíaToolStripMenuItem.Text = "Cierre de Día";
+            this.cierreDeDíaToolStripMenuItem.Click += new System.EventHandler(this.cierreDeDíaToolStripMenuItem_Click);
             // 
             // MenuView
             // 
@@ -213,5 +234,7 @@
         private System.Windows.Forms.ToolStripMenuItem corteDeCajaToolStripMenuItem;
         private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton5;
         private System.Windows.Forms.ToolStripMenuItem agregarClientesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem agregarProveedoresToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cierreDeDíaToolStripMenuItem;
     }
 }

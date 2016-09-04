@@ -1,6 +1,6 @@
 ﻿namespace Punto
 {
-    partial class Form1
+    partial class AgregarInventarioView
     {
         /// <summary>
         /// Required designer variable.
@@ -154,7 +154,7 @@
             this.lblestatus.TabIndex = 12;
             this.lblestatus.Text = "Cantidad";
             // 
-            // Form1
+            // AgregarInventarioView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -172,7 +172,7 @@
             this.Controls.Add(this.Descripcion);
             this.Controls.Add(this.txtcodigo);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "AgregarInventarioView";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

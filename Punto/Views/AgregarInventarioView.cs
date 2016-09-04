@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Punto
 {
-    public partial class Form1 : Form
+    public partial class AgregarInventarioView : Form
     {
         AgregarInventarioVM ai;
-        public Form1()
+        public AgregarInventarioView()
         {
             InitializeComponent();
             ai = new AgregarInventarioVM();
